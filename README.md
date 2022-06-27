@@ -67,25 +67,13 @@ Da un ejemplo
 
 ### STM32 execution ⌨️
 
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Deployment 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Authors✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Daniel Alvarez** - *Trabajo Inicial* - 
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+1. Open STMCubeIDE editor
+2. Open the file as a new project on workspace
+3. Adjust the [STM32HardwareFile](https://github.com/DuneV/glowing-enigma/blob/main/CubeIDE_Project/Stm_ros_L4/Core/Inc/STM32Hardware.h) for your board.
+4. Upload the project.
+5. run the rosserial_python, and the subcribers/publisher are going to with STM.
 
 ## License 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+This project is under the Public License - mira el archivo [LICENSE.md](LICENSE.md) for more details.
 
