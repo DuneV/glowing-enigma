@@ -2,8 +2,8 @@
  * main.cpp
 
  *
- *  Created on: 2018/01/17
- *      Author: yoneken
+ *  Created on: 2018/01/17 Modified on: 2022/02/15
+ *      Author: yoneken and DuneV
  */
 #include <mainpp.h>
 #include <ros.h>
