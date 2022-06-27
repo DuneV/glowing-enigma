@@ -1,6 +1,11 @@
 #!/usr/bin/env python3  
 
 #import roslib; roslib.load_manifest('smach_ros') 
+# Authors: Daniel Alvarez and Santiago Ortiz
+# Description: StateMachine robot turtlebot
+# Project: robot control autonomus
+
+#libraries
 import rospy
 import smach
 import smach_ros
