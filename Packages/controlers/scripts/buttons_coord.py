@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+# Authors: Daniel Alvarez
+# Description: Identifier of buttons of diferents colors and publish coordinates based on the camera megapixels
+# Project: Robot visor
+
+# libraries
 import rospkg
 import rospy
 from geometry_msgs.msg import Twist
