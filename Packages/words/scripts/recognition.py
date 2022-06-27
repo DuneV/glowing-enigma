@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# Juan Pinzon and Daniel Alvarez
+# Affirmative and denied recognition code depending on the color
+
+
 import rospkg
 import rospy
 import cv2
