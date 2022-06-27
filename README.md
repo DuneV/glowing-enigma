@@ -30,25 +30,34 @@ Recommend to use a Code Editor
 
 _The first step is to clone the repository to a folder of your choice._
 
-_Look for the folder and in the terminal_
+_Look for the folder that you want to beand in the terminal_
 
 ```
-git clone 
+git clone https://github.com/DuneV/glowing-enigma.git
 ```
 
-_Y repite_
+_Second, enter to the folder_
 
 ```
-hasta finalizar
+cd /folderle_of_preference
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_ Third, copy this file  with the next command (case package)_
 
-## Ejecutando las pruebas ⚙️
+```
+cp avr /source_folder(package)  /destination_folder(workspace_ws/src)
+```
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+## Run Test⚙️
 
-### Analice las pruebas end-to-end 🔩
+_Enter to your workspace_
+
+```
+catkin_make or catkin_build
+
+```
+
+### Troubleshooting 🔩
 
 _Explica que verifican estas pruebas y por qué_
 
