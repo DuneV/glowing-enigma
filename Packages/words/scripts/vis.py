@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Authors: Daniel Alvarez
-# Description: Affirmative and denied recognition code depending on the color
+# Description: Identification of word
 # Project: word identification test to vis2.py to calibrate
 
 import rospy
