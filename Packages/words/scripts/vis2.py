@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# Authors: Daniel Alvarez
+# Description: Identification about ROS service word/camera to a text
+# Project: word identification ROS service
+
 # libraries
 
 import rospy
@@ -45,14 +49,14 @@ def text(request):
         #audio = 'Voz.mp3'
         #playsound(audio)
 
-
+# Class building
 class letras:
     rospy.init_node("i2s_service", anonymous=True)
     service = rospy.Service("image2string",image2string, text)
     rate = rospy.Rate(10)
     rospy.spin()
 
-# init code
+# init code, launch the main thread
  
 if __name__ == '__main__':
     try:
