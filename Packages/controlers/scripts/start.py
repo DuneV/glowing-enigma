@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import subprocess, socket, roslaunch
 
+# Help to avoid to change bashrc of ROS
 if __name__ == '__main__':
     arg1 = "ROS_MASTER_URI=http://192.168.0.105:11311"
     arg2 = "ROS_IP="+str(socket.gethostbyname(socket.gethostname()))
