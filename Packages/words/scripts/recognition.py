@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-# Juan Pinzon and Daniel Alvarez
-# Affirmative and denied recognition code depending on the color
+# Authors: Juan Pinzon and Daniel Alvarez
+# Description: Affirmative and denied recognition code depending on the color
+# Project: Autonomus robot manipulation
 
 
 import rospkg
@@ -97,7 +98,7 @@ class ShapeDetect:
         
 
 
-# Main del programa, lanza el despliegue de la interfaz en el hilo principal.
+# Main of the script, launch the main thread
 if __name__ == '__main__':
     rospy.init_node('shapeDetector', anonymous=True)
     try:   
