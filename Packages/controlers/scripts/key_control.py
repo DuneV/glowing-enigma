@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 
-import rospy
+# Authors: Daniel Alvarez
+# Description: Control through keyboard publisher (using twist message)
+# Project: robot control eslave
 
+# Libraries
+
+import rospy
 from pynput import keyboard as kb
 from std_msgs.msg import String
 from geometry_msgs.msg import Twist
 
+# class building
 class Control:
 
     def __init__(self) -> None:
@@ -43,6 +49,7 @@ class Control:
         twistMessage = Twist()
         self.cmdPublisher.publish(twistMessage)
 
+# Launch the main thread of the code        
 if __name__ == '__main__':
     try:
         rospy.init_node('comu', anonymous=True)
