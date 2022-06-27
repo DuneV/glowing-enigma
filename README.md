@@ -54,15 +54,14 @@ _Enter to your workspace_
 
 ```
 catkin_make or catkin_build
-
 ```
 
 ### Troubleshooting 🔩
 
-_Explica que verifican estas pruebas y por qué_
+_You may not have all the necessary libraries and packages, you can download a package manager like pip to the python libraries (pynput, pytteseract, rosserial, cv2, cvbridge, threading, etc.) or sudo apt-get install ros_distribution-package-ersion_
 
 ```
-Da un ejemplo
+sudo apt-get install ros-noetic/melodic-realsense-camera
 ```
 
 ### STM32 execution ⌨️
