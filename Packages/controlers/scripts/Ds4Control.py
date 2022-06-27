@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 
-
+# Authors: Daniel Alvarez
+# Description: Control through PS4 controller publisher (using twist message)
+# Project: submarine control eslave
 
 # Libraries
 import rospkg
