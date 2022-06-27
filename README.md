@@ -42,7 +42,7 @@ _Second, enter to the folder_
 cd /folderle_of_preference
 ```
 
-_ Third, copy this file  with the next command (case package)_
+_Third, copy this file  with the next command (case package)_
 
 ```
 cp avr /source_folder(package)  /destination_folder(workspace_ws/src)
