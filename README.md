@@ -4,7 +4,7 @@ This repository corresponds to a series of open source code developed in python 
 
 ## Starting 🚀
 
-_To run most scripts you need to have them in a ROS workspace._
+_To run most scripts you need to have them in a ROS workspace,downloading the respective package._
 
 ### Pre-requirements 📋
 
@@ -28,12 +28,12 @@ Recommend to use a Code Editor
 
 ### Installation 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_The first step is to clone the repository to a folder of your choice._
 
-_Dí cómo será ese paso_
+_Look for the folder and in the terminal_
 
 ```
-Da un ejemplo
+git clone 
 ```
 
 _Y repite_
