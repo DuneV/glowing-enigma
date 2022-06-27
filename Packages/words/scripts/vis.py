@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
 
+# Authors: Daniel Alvarez
+# Description: Affirmative and denied recognition code depending on the color
+# Project: word identification test to vis2.py to calibrate
+
 import rospy
 from std_msgs.msg import String
 import cv2
 from words.srv import image2string, image2stringResponse
 import pytesseract
-#from gtts import gTTS
-#from playsound import playsound
+# from gtts import gTTS 
+# Case to pronunce the voice throught some type of speaker 
+# from playsound import playsound
+# Reproduce what the systemread
 import rospkg
 
 
@@ -68,7 +74,8 @@ class letras:
     text(doc)
     cap.release()
     cv2.destroyAllWindows()
-# init code 
+  
+# init code, launch the main thread 
 if __name__ == '__main__':
     try: 
         lett = letras() 
