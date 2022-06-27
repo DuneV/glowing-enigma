@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# Authors: Daniel Alvarez
+# Description: Launch the camera by default
+# Project: Autonomus robot server
+
 import rospy
 import cv2
 from sensor_msgs.msg import Image
@@ -29,7 +33,7 @@ bridge = CvBridge()
 #cap.set(4,alto)
 
 # class building 
-class talker: 
+class camer: 
     pub = rospy.Publisher('/webcam',Image, queue_size=10)
     rospy.init_node('image', anonymous=True)
     r=rospy.Rate(10)
@@ -44,9 +48,10 @@ class talker:
         if rospy.is_shutdown():
             cap.release()
         r.sleep()
-# init code 
+ 
+# Launch the main thread of the scripts
 if __name__ == '__main__':
     try: 
-        lett = talker() 
+        lett = camer() 
     except rospy.ROSInterruptException:
        pass
